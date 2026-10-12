@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="nj_BTMwwaXFMXzgTyo8I">
+    <mxGraphModel dx="1191" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Sistem Informasi Peminjaman dan Pengembalian peralatan Laboratorium Kampus&lt;/font&gt;" vertex="1">
+          <mxGeometry height="440" width="390" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-4" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="Lihat &#xa;ketersediaan&#xa;peralatan" vertex="1">
+          <mxGeometry height="60" width="130" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-3" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="ajukan pinjaman" vertex="1">
+          <mxGeometry height="60" width="130" x="30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-2" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="cetak bukti&#xa;pengajuan" vertex="1">
+          <mxGeometry height="60" width="130" x="30" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-10" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="Kelola data&#xa;peralatan" vertex="1">
+          <mxGeometry height="60" width="130" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-12" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="Periksa ketersediaan" vertex="1">
+          <mxGeometry height="60" width="130" x="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-13" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="Prosess &#xa;keputusan&#xa;peminjaman" vertex="1">
+          <mxGeometry height="60" width="130" x="230" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-14" parent="xILzdg_lLmD7iW6N4wVo-1" style="ellipse;" value="Lihat laporan &#xa;Peminjaman" vertex="1">
+          <mxGeometry height="60" width="130" x="230" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-25" edge="1" parent="xILzdg_lLmD7iW6N4wVo-1" source="xILzdg_lLmD7iW6N4wVo-2" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="xILzdg_lLmD7iW6N4wVo-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-26" edge="1" parent="xILzdg_lLmD7iW6N4wVo-1" source="xILzdg_lLmD7iW6N4wVo-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="xILzdg_lLmD7iW6N4wVo-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-16" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-29" edge="1" parent="1" source="xILzdg_lLmD7iW6N4wVo-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="xILzdg_lLmD7iW6N4wVo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-19" edge="1" parent="1" source="xILzdg_lLmD7iW6N4wVo-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="xILzdg_lLmD7iW6N4wVo-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-20" edge="1" parent="1" source="xILzdg_lLmD7iW6N4wVo-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="xILzdg_lLmD7iW6N4wVo-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-21" edge="1" parent="1" source="xILzdg_lLmD7iW6N4wVo-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="xILzdg_lLmD7iW6N4wVo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-27" edge="1" parent="1" source="xILzdg_lLmD7iW6N4wVo-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="xILzdg_lLmD7iW6N4wVo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xILzdg_lLmD7iW6N4wVo-28" edge="1" parent="1" source="xILzdg_lLmD7iW6N4wVo-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="xILzdg_lLmD7iW6N4wVo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
