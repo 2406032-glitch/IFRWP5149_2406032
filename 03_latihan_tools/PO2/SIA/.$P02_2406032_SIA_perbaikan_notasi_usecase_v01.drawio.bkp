@@ -1,0 +1,28 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="5B6PTVzjqRYJOC6_t0ZO">
+    <mxGraphModel dx="760" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nNmjc0uPw_8Dc5eDt2ub-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="sistem laboratorium" vertex="1">
+          <mxGeometry height="310" width="340" x="220" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nNmjc0uPw_8Dc5eDt2ub-3" parent="nNmjc0uPw_8Dc5eDt2ub-1" style="ellipse;" value="Lihat jadwal" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nNmjc0uPw_8Dc5eDt2ub-2" parent="nNmjc0uPw_8Dc5eDt2ub-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nNmjc0uPw_8Dc5eDt2ub-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="140" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nNmjc0uPw_8Dc5eDt2ub-5" edge="1" parent="1" source="nNmjc0uPw_8Dc5eDt2ub-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="nNmjc0uPw_8Dc5eDt2ub-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNmjc0uPw_8Dc5eDt2ub-6" edge="1" parent="1" source="nNmjc0uPw_8Dc5eDt2ub-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="nNmjc0uPw_8Dc5eDt2ub-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
